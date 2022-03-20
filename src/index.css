@@ -992,6 +992,7 @@ p {
   position: static;
   margin-top: 0.5rem;
   align-items: unset;
+   max-width: 330px;
   width: 100%;
   max-height: calc(100vh -7rem);
 }
