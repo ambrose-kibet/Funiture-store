@@ -26,14 +26,13 @@ const Sort = () => {
           <BsList />
         </button>
       </div>
-
-      <p>{filtered_products.length} products found</p>
+      <p style={{ display: "inline" }}>{filtered_products.length} products</p>
       <div>
         <hr />
       </div>
       <div className="sort-by">
-        <p> sort by</p>
         <form>
+          <label htmlFor="sort">sort by</label>
           <select
             name="sort"
             className="select"

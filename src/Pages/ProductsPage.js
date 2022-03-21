@@ -6,7 +6,7 @@ const ProductsPage = () => {
       <PageHero page="products" />
       <section className="products-section">
         <Filters />
-        <div>
+        <div className="all-products-container">
           <Sort />
           <ProductList />
         </div>
