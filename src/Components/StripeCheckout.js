@@ -77,12 +77,13 @@ export const CheckoutForm = () => {
       setError(`payment failed ${payload.error.message}`);
       setProcessing(false);
     } else {
+      console.log(payload);
       setError(null);
       setProcessing(false);
       setSucceeded(true);
       setTimeout(() => {
         clearCart();
-        <Navigate to="/products" />;
+        <Navigate To="/products" />;
       }, 10000);
     }
   };
