@@ -18,7 +18,7 @@ const CartItem = ({ id, color, amount, image, price, max, name }) => {
               className="items-color"
               style={{
                 background: `${color}`,
-                color: `${color}`,
+                color: `transparent`,
                 height: "1.1rem",
                 width: "1.1rem",
                 display: "flex",
