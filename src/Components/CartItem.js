@@ -19,7 +19,11 @@ const CartItem = ({ id, color, amount, image, price, max, name }) => {
               style={{
                 background: `${color}`,
                 color: `${color}`,
-                height: " 1.1rem ",
+                height: "1.1rem",
+                width: "1.1rem",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
               }}
             >
               00
